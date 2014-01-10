@@ -1,7 +1,10 @@
 #include "my_utilities.h"
 #include "programming.h"
 #include <iostream>
+#include <string>
 #include <map>
+
+using namespace std;
 
 // Value-Defintions of the different String values
 static enum StringValueEnum {
@@ -46,8 +49,12 @@ void my_utility(){
 		}
 		case programmingQuestions: {
 			//Make an object of an interface which give blueprint of all functioalities
-									  
-									reversal();
+									   programming_questions prog_q;
+									   string user_command = "";
+									   cout << "Enter new string to reverse:\n";
+									   getline(std::cin, user_command);
+									   cout << programming_questions::Reverse(user_command) << endl;
+									   prog_q.Reverse(user_command);
 									break;
 		}
 		case contactMe: {
