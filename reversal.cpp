@@ -1,6 +1,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include "reversal.h"
 
 using namespace std;
 
@@ -11,10 +12,10 @@ std::string& reverse(std::string &st, int init, int final){
 	string temp = "";
 	for (int i = init; i < final; i++){
 		temp[i] = st[i];
-		st[i] = st[(lenght - final) - i - 1];
-		st[(lenght - i) - init - 1] = temp[i];
+		st[i] = st[lenght - final + 1];
+		st[lenght - final + 1] = temp[i];
 	}
-	return temp;
+	return st;
 }
 
 
@@ -25,6 +26,7 @@ std::string& reverse_word_wise(std::string &str){
 	for (int i = position; i < str.size(); i++){
 		if ((str[i] == '\t') || (str[i] == ' ')) {
 			reverse(str, position, i);
+			position = i;
 		}
 	}
 	return str;
@@ -32,7 +34,6 @@ std::string& reverse_word_wise(std::string &str){
 
 
 void reversal (){
-	std::vector<char> user_command(command_max_size);
-	std::cout<<"enter command: fix me";
-	//std::get (user_command);
+	std::string user_command= "my name is amaresh";
+	reverse_word_wise(user_command);
 }

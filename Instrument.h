@@ -22,11 +22,11 @@ public:
 		cout << "Instrument::play" << endl;
 	}
 	//virtual void display_info() = 0;
-	virtual void display_info() const{}
+	virtual void display_info() {}
 };
 
 
-//void Instrument::display_info() const {
+//void Instrument::display_info()  {
 //	cout << "size of \"Instrument\" object is: " << sizeof(Instrument) << endl;
 //}
 
