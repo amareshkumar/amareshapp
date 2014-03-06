@@ -82,11 +82,13 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>E:\amaresh\my_project\externalLibs\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\amaresh\my_project\externalLibs\curl-7.34.0-win64\include</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>MBCS;%(PreprocessorDefinitions); OOPS_MAIN</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>E:\amaresh\my_project\externalLibs\curl-7.34.0-win64\lib\libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -118,22 +120,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="array.cpp" />
     <ClCompile Include="Cats.cpp" />
+    <ClCompile Include="d_linked_list.cpp" />
+    <ClCompile Include="gc.cpp" />
+    <ClCompile Include="graph.cpp" />
     <ClCompile Include="Instrument.cpp" />
+    <ClCompile Include="linked_list.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyApplication.cpp" />
+    <ClCompile Include="my_bolt.cpp" />
     <ClCompile Include="My_Threads.cpp" />
     <ClCompile Include="my_utilities.cpp" />
+    <ClCompile Include="OOPs.cpp" />
+    <ClCompile Include="polymorphic_activiites.cpp" />
     <ClCompile Include="programming.cpp" />
-    <ClCompile Include="reversal.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Smart_Pointers.cpp" />
+    <ClCompile Include="sorting.cpp" />
+    <ClCompile Include="Stack.cpp" />
     <ClCompile Include="test_my_project.cpp" />
+    <ClCompile Include="tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cats.h" />
-    <ClInclude Include="helper_classes.h" />
     <ClInclude Include="Instrument.h" />
+    <ClInclude Include="linked_list.h" />
+    <ClInclude Include="MyApplication.h" />
+    <ClInclude Include="my_bolt.h" />
+    <ClInclude Include="my_project_app.h" />
     <ClInclude Include="My_Threads.h" />
     <ClInclude Include="programming.h" />
     <ClInclude Include="my_utilities.h" />
-    <ClInclude Include="reversal.h" />
+    <ClInclude Include="sorting.h" />
+    <ClInclude Include="tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

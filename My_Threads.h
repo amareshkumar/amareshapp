@@ -9,7 +9,6 @@ public:
 	My_ThreadActivities (){
 	
 	}
-
 	void simple_thread_example();
 };
 

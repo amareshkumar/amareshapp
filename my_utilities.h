@@ -1,8 +1,62 @@
 #pragma once 
 #ifndef  MY_UTILITIES_H
 #define MY_UTILITIES_H
+#include <iostream>
 
 void my_utility();
 
-MY_UTILITIES_H
-#endif // ! MY_UTILITIES_H
+
+class Utilities {
+protected: 
+	static Utilities* _instances;
+	Utilities(){
+	}
+	Utilities(Utilities& ut){
+		instance();
+	}
+public:
+	static Utilities* instance(){
+		if (_instances == 0){
+			_instances = new Utilities();
+		}
+		else return _instances;
+	}
+
+	static void test(){
+		std::cout << "I am in Singleton\n";
+	}
+	static void polymorphic_activities();
+
+};
+
+
+/*
+
+//Wind flute;
+//tune(flute);
+
+//cout << endl;
+//flute.display_info();
+//cout << endl;
+
+//Instrument::display_info();
+//flute.display_info();
+
+
+//matrix_op matrix_op;
+//matrix_op.replaceWithZero();
+
+//GPU Specific:
+
+//GpuSpecific gpuSpecific;
+//gpuSpecific.parallelism();
+
+//ThrustActivitest thrustApp;
+//thrustApp.start();
+//
+//my_functor_op myfunctor;
+//myfunctor.functor_op();
+
+*/
+
+#endif // MY_UTILITIES_H
