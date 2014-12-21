@@ -13,4 +13,4 @@ int t_hight(struct tnode* root);
 bool check_identical_trees(struct tnode* root1, struct tnode* root2);
 struct tnode* insert_tnode(int item);
 
-#endif TREE_H
+#endif //TREE_H
