@@ -26,7 +26,6 @@ public:
 		std::cout << "I am in Singleton\n";
 	}
 	static void polymorphic_activities();
-
 };
 
 

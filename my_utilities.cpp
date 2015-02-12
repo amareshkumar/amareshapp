@@ -54,7 +54,7 @@ void read_socket()
 }
 
 //end of (sending an email)
-#endif SEND_MAIL_UNIX
+#endif //SEND_MAIL_UNIX
 //--------------------------------------------------------------------------------------------------------
 
 // Value-Defintions of the different String values
@@ -65,7 +65,9 @@ static enum StringValueEnum {
 	polymorphic = 4,
 	threading = 5,
 	getMeOutOfHere = 10,
-	gc = 6, social = 7, overloading = 8
+	gc = 6, 
+	social = 7, 
+	overloading = 8
 };
 
 //Create maps to associate these anums with user command

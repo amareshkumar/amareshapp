@@ -13,7 +13,11 @@ enum note { middleC, Csharp, Eflat }; //Etc.
 class Instrument {
 public:
 	virtual char* what() const {
-		return <const_cast> ("Instrument");
+		
+		std::string s("Instrument");
+		char *p = const_cast<char *>(s.c_str());
+//		return <const_cast> (char*)("Instrument");
+		return p;
 	}
 	// Assume this will modify the object:
 	virtual void adjust(int) {}
