@@ -1,4 +1,3 @@
-#pragma once
 #ifndef MY_PROJECT_APP_H
 #define MY_PROJECT_APP_H
 
@@ -6,14 +5,15 @@
 #include <sstream>
 #include <iostream>
 #include <string>
-#include <cstdint>  // ::std::uint64_t type
 #include <cstddef> // ::std::size_t type
 #include <algorithm>
 #include <fstream>
 #include <vector>
 #include <map>
+//#include <unordered_map>
+#include <tr1/unordered_map>
+using namespace std::tr1;
 #include <set>
-#include <unordered_map>
 #include <stdlib.h>
 #include <list>
 #include <utility>

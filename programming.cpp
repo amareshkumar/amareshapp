@@ -1,4 +1,5 @@
 #include "my_project_app.h"
+#using namespace std; 
 
 static const int command_max_size = 100;
 
@@ -143,7 +144,7 @@ T* my_sort(T arr[]){
 
 
 void my_set(){
-	std::set <string> myset = { "amaresh", "akhilesh", "kirti", "rashmi" }; //set of 4 names
+	std::set <std::string> myset = { "amaresh", "akhilesh", "kirti", "rashmi" }; //set of 4 names
 
 	myset.insert({ "kumar", "kumari" }); //insert 2 more elements
 
@@ -162,8 +163,9 @@ void my_map(){
 	my_map.insert({ 3, "kirti" });
 	my_map.insert({ 4, "rashmi" });
 
-	for (auto record : my_map){ std::cout << record.first << "\t" << record.second << endl; }
-
+	for (auto record : my_map){
+		std::cout << record.first << "\t" << record.second<< "\n"; 
+	}
 }
 
 

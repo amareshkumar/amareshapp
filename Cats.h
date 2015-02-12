@@ -8,9 +8,9 @@
 //abstract class "Felid"
 class Felid {
 protected: 
-	char* felid_detail = "Felid Family";
 public:
 	Felid (){
+		const char* felid_detail = "Felid Family";
 		std::cout << "Constructor called: Felid\n";
 	}
 	virtual void meow() = 0;
@@ -35,9 +35,9 @@ public:
 
 class Tiger : public Felid {
 protected:
-	int no_of_tigers_alive = 10000;
 public:
 	Tiger(){
+		const int no_of_tigers_alive = 10000;
 		std::cout << "Constructor called: Tiger\n";
 	}
 	virtual void habitant_area(){
@@ -49,9 +49,9 @@ public:
 
 class Ocelot : public Felid {
 protected:
-	float avg_height_of_Ocelot = 1.5f;
 public:
 	Ocelot(){
+		const float avg_height_of_Ocelot = 1.5f;
 		std::cout << "Constructor called: Ocelot\n";
 	}
 	void meow() { std::cout << "Meowing like an ocelot! mews!\n"; }
