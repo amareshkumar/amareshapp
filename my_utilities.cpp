@@ -2,7 +2,7 @@
 #include "programming.h"
 #include <math.h>
 
-#include "curl/curl.h""
+//#include "curl/curl.h""
 
 using namespace std;
 

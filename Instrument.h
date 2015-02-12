@@ -13,7 +13,7 @@ enum note { middleC, Csharp, Eflat }; //Etc.
 class Instrument {
 public:
 	virtual char* what() const {
-		return "Instrument";
+		return <const_cast> ("Instrument");
 	}
 	// Assume this will modify the object:
 	virtual void adjust(int) {}
