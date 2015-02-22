@@ -1,6 +1,7 @@
 #include "my_project_app.h"
-#include "programming.h"
-#include <math.h>
+
+//trying to enable the condition compilation 
+#if __cplusplus >= 201103L
 
 //#include "curl/curl.h""
 
@@ -10,13 +11,6 @@ using namespace std;
 #ifdef SEND_MAIL_UNIX
 //sending an email
 //an unix code 
-
-#include<iostream>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <netdb.h>
-#include <stdio.h>
 
 #define HELO "HELO 192.168.1.1\r\n"
 #define DATA "DATA\r\n"
@@ -390,3 +384,5 @@ void bit_vector_example(){
 	//}
 
 }
+
+#endif //#if __cplusplus >= 201103L

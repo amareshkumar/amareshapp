@@ -1,4 +1,7 @@
 #include "my_project_app.h"
+
+#if __cplusplus >= 201103L
+
 using namespace std; 
 
 static const int command_max_size = 100;
@@ -211,14 +214,14 @@ void print(){
 /*
 
 Spreadsheet column name
-Spreadsheets name their columns using alphabets sequences: ‘A’, ‘B’ … ‘Z’, ‘AA’ …. Write a method that takes in the column index as an input and returns the column name as a string. Sample return values for some inputs are:
-1 => ‘A’
-7 => ‘G’
-26 => ‘Z’
-27 => ‘AA’
-28 => ‘AB’
-702 => ‘ZZ’
-703 => ‘AAA’
+Spreadsheets name their columns using alphabets sequences: Â‘AÂ’, Â‘BÂ’ Â… Â‘ZÂ’, Â‘AAÂ’ Â…. Write a method that takes in the column index as an input and returns the column name as a string. Sample return values for some inputs are:
+1 => Â‘AÂ’
+7 => Â‘GÂ’
+26 => Â‘ZÂ’
+27 => Â‘AAÂ’
+28 => Â‘ABÂ’
+702 => Â‘ZZÂ’
+703 => Â‘AAAÂ’
 
 */
 std::string translateColumnIndexToName(int index){
@@ -236,4 +239,4 @@ std::string translateColumnIndexToName(int index){
 
 }
 
-
+#endif //#if __cplusplus >= 201103L

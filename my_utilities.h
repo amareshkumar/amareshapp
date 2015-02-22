@@ -1,7 +1,13 @@
 #pragma once 
 #ifndef  MY_UTILITIES_H
 #define MY_UTILITIES_H
-#include <iostream>
+
+#include "my_project_app.h"
+
+//#include <sys/types.h>
+//#include <sys/socket.h>
+//#include <netinet/in.h>
+//#include <netdb.h>
 
 void my_utility();
 

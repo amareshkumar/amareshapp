@@ -14,6 +14,7 @@
 #include <tr1/unordered_map>
 using namespace std::tr1;
 #include <set>
+#include <math.h>
 #include <stdlib.h>
 #include <list>
 #include <utility>

@@ -141,10 +141,11 @@ int main()
 
 #endif PUZZLE_1
 
-#ifdef Singleton
 
-
-int main(){
+int main(void){
 	//MyApplication::instance();
+	//MyApplication::start();
+	my_utility();
+	
+	return 0;
 }
-#endif Singleton

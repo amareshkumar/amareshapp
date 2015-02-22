@@ -1,8 +1,12 @@
 #include "ThrustActivitest.h"
-#include <thrust/sort.h>
-#include <thrust/host_vector.h>
-#include <thrust/device_vector.h>
 
+#ifdef THRUSTACTIVITIES_H
+//#include <thrust/sort.h>
+//#include <thrust/host_vector.h>
+//#include <thrust/device_vector.h>
+#endif 
+
+#ifdef THRUSTACTIVITIES_H
 void ThrustActivitest::start(){
 	
 	//// generate 16M random numbers on the host
@@ -18,3 +22,4 @@ void ThrustActivitest::start(){
 	//thrust::copy(d_vec.begin(), d_vec.end(), h_vec.begin());
 
 }
+#endif //THRUSTACTIVITIES_H

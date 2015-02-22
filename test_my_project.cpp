@@ -1,5 +1,6 @@
 #include "my_project_app.h"
 
+#if __cplusplus >= 201103L
 
 class A
 {
@@ -342,3 +343,5 @@ int main()
 }
 
 #endif NICE
+
+#endif //#if __cplusplus >= 201103L
