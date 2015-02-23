@@ -3,41 +3,41 @@
 #define MY_APPLICATION_H
 
 
-class MyApplication {
-private:
-	int *ptr;
-protected:
-	static MyApplication* _instances;
-	MyApplication(){
-	}
-
-	MyApplication(const MyApplication& ut){
-		instance();
-	}
-
-	MyApplication& operator = (const MyApplication& m_app){
-		//Check for self assignment
-		if (this != &m_app){
-			*ptr = * (m_app.ptr);
-		}
-		return *this;
-	}
-
-	~MyApplication(){
-		delete _instances;
-	}
-
-public:
-	static MyApplication* instance(){
-		if (!_instances ){
-			_instances = new MyApplication();
-		}
-		else return _instances;
-	}
-
-	static void start();
-
-};
+//class MyApplication {
+//private:
+//	int *ptr;
+//protected:
+//	static MyApplication* _instances;
+//	MyApplication(){
+//	}
+//
+//	MyApplication(const MyApplication& ut){
+//		instance();
+//	}
+//
+//	MyApplication& operator = (const MyApplication& m_app){
+//		//Check for self assignment
+//		if (this != &m_app){
+//			*ptr = * (m_app.ptr);
+//		}
+//		return *this;
+//	}
+//
+//	~MyApplication(){
+//		delete _instances;
+//	}
+//
+//public:
+//	static MyApplication* instance(){
+//		if (!_instances ){
+//			_instances = new MyApplication();
+//		}
+//		return _instances;
+//	}
+//
+//	static void start();
+//
+//};
 
 class mySingleton {
 private:

@@ -88,8 +88,8 @@ void swap(int* a, int* b)
 /* A typical recursive implementation of quick sort */
 
 /* This function takes last element as pivot, places the pivot element at its
-   correct position in sorted array, and places all smaller (smaller than pivot)
-      to left of pivot and all greater elements to right of pivot */
+ï¿½ï¿½ï¿½correct position in sorted array, and places all smaller (smaller than pivot)
+   ï¿½ï¿½ï¿½to left of pivot and all greater elements to right of pivot */
 int partition(int arr[], int l, int h)
 {
 	int x = arr[h];
@@ -108,7 +108,7 @@ int partition(int arr[], int l, int h)
 }
 
 
-/* A[] --> Array to be sorted, l  --> Starting index, h  --> Ending index */
+/* A[] --> Array to be sorted, lï¿½ --> Starting index, hï¿½ --> Ending index */
 void quickSort(int A[], int l, int h)
 {
 	if (l < h)
@@ -119,4 +119,4 @@ void quickSort(int A[], int l, int h)
 	}
 }
 
-#endif SORT_MAIN
+#endif //SORT_MAIN

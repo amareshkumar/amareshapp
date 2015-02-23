@@ -1,7 +1,8 @@
 #include "my_project_app.h"
+#include "my_utilities.h"
 
 //trying to enable the condition compilation 
-#if __cplusplus >= 201103L
+//#if __cplusplus >= 201103L
 
 //#include "curl/curl.h""
 
@@ -52,7 +53,7 @@ void read_socket()
 //--------------------------------------------------------------------------------------------------------
 
 // Value-Defintions of the different String values
-static enum StringValueEnum {
+enum StringValueEnum {
 	socailNetwork = 1,
 	programmingQuestions = 2,
 	contactMe = 3,
@@ -121,20 +122,21 @@ void my_utility(){
 
 	if (!is_number(user_command)){
 
-		//convert string to something compilar can understand without ambiguity
+		//convert string to something compiler can understand without ambiguity
 		switch (user_command_string_map[user_command]){
 		case socailNetwork: {
 								break;
 		}
 		case programmingQuestions: {
-									   //Make an object of an interface which give blueprint of all functioalities
-									   programming_questions prog_q;
-									   string user_command = "";
-									   cout << "Enter new string to reverse:\n";
-									   getline(std::cin, user_command);
-									   cout << programming_questions::Reverse(user_command) << endl;
-									   prog_q.Reverse(user_command);
-									   break;
+                                            //Make an object of an interface which give blueprint of all functionalities
+                    cout<<"here 1\n";
+                                            programming_questions prog_q;
+                                            string user_command = "";
+                                            cout << "Enter new string to reverse:\n";
+                                            getline(std::cin, user_command);
+                                            cout << programming_questions::Reverse(user_command) << endl;
+                                            prog_q.Reverse(user_command);
+                                            break;
 		}
 		case contactMe: {
 	#ifdef SEND_MAIL_UNIX_2
@@ -195,7 +197,7 @@ void my_utility(){
 
 								//=====Close socket and finish=====*/
 								close(sock);
-	#endif SEND_MAIL_UNIX_2
+	#endif //SEND_MAIL_UNIX_2
 
 							cout << "Not developed yet\n";
 							break;
@@ -213,72 +215,83 @@ void my_utility(){
 	else {
 
 		switch (user_command_int_map[user_command]){
-		case polymorphic: {
-							  Utilities::polymorphic_activities();
-							  break;
-		}
-		case threading: {
-							My_ThreadActivities my_thread;
-							my_thread.simple_thread_example();
-							break;
-		}
-		case gc:
-			//implement own garbage collector
-		{
+                    case polymorphic: {
+                                                              Utilities::polymorphic_activities();
+                                                              break;
+                    }
+                    case programmingQuestions: {
+                        //Make an object of an interface which give blueprint of all functionalities
+                    cout<<"here 2\n";
+                                            programming_questions prog_q;
+                                            string user_command = "";
+                                            cout << "Enter new string to reverse:\n";
+                                            getline(std::cin, user_command);
+                                            cout << programming_questions::Reverse(user_command) << endl;
+                                            prog_q.Reverse(user_command);
+                                            break;
+                    }
+                    case threading: {
+                                                            My_ThreadActivities my_thread;
+                                                            my_thread.simple_thread_example();
+                                                            break;
+                    }
+                    case gc:
+                            //implement own garbage collector
+                    {
 
-				   std::cout << "in my gc\n";
-				   break;
-		}
-		case overloading: {
+                                       std::cout << "in my gc\n";
+                                       break;
+                    }
+                    case overloading: {
 
-							  cout << "overloading new and delete\n\n";
+                                                              cout << "overloading new and delete\n\n";
 
-							  int *p = new int(10);
-							  float *p_f = new float(2.4f);
+                                                              int *p = new int(10);
+                                                              float *p_f = new float(2.4f);
 
-							  cout << "square of int value: is: " << pow(*p, 2) << endl;
-							  //call my delete
-							  delete p;
-							  cout << "square of float value: is: " << pow(*p_f, 2) << endl;
-							  delete p_f;
+                                                              cout << "square of int value: is: " << pow(*p, 2) << endl;
+                                                              //call my delete
+                                                              delete p;
+                                                              cout << "square of float value: is: " << pow(*p_f, 2) << endl;
+                                                              delete p_f;
 
 
 
-							  break;
-		}
+                                                              break;
+                    }
 
-		case social:{
-						std::cout << " website section:\n";
-						char linkedin_url[1000] = "https://in.linkedin.com/in/kumaramaresh//";
-#if 0
-						//curl code
-						CURL *curl;
-						CURLcode res;
+                    case social:{
+                                                    std::cout << " website section:\n";
+                                                    char linkedin_url[1000] = "https://in.linkedin.com/in/kumaramaresh//";
+    #if 0
+                                                    //curl code
+                                                    CURL *curl;
+                                                    CURLcode res;
 
-						curl = curl_easy_init();
-						if (curl) {
-							curl_easy_setopt(curl, CURLOPT_URL, linkedin_url);
-							/* example.com is redirected, so we tell libcurl to follow redirection */
-							curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
+                                                    curl = curl_easy_init();
+                                                    if (curl) {
+                                                            curl_easy_setopt(curl, CURLOPT_URL, linkedin_url);
+                                                            /* example.com is redirected, so we tell libcurl to follow redirection */
+                                                            curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
 
-							/* Perform the request, res will get the return code */
-							res = curl_easy_perform(curl);
-							/* Check for errors */
-							if (res != CURLE_OK)
-								fprintf(stderr, "curl_easy_perform() failed: %s\n",
-								curl_easy_strerror(res));
+                                                            /* Perform the request, res will get the return code */
+                                                            res = curl_easy_perform(curl);
+                                                            /* Check for errors */
+                                                            if (res != CURLE_OK)
+                                                                    fprintf(stderr, "curl_easy_perform() failed: %s\n",
+                                                                    curl_easy_strerror(res));
 
-							/* always cleanup */
-							curl_easy_cleanup(curl);
-						}
-						//end of curl code
-#endif
-						break;
-		}
-		default:
-			break;
+                                                            /* always cleanup */
+                                                            curl_easy_cleanup(curl);
+                                                    }
+                                                    //end of curl code
+    #endif
+                                                    break;
+                    }
+                    default:
+                            break;
 		}//end of switch for 
-
+            cout<<"\nThank you for trying out this app. for any query write to amaresh.kumar@live.in\n";
 	} //end of else
 } 
 
@@ -286,9 +299,9 @@ void my_utility(){
 void user_command_map(){
 		user_command_string_map["social network"]		= socailNetwork,
 		user_command_string_map["programming"]			= programmingQuestions,
-		user_command_string_map["programming question"] = programmingQuestions,
+		user_command_string_map["programming question"]         = programmingQuestions,
 		user_command_string_map["contact me"]			= contactMe,
-		user_command_string_map["exit"]					= getMeOutOfHere;
+		user_command_string_map["exit"]				= getMeOutOfHere;
 }
 
 void user_command_map_int(){
@@ -300,7 +313,6 @@ void user_command_map_int(){
 	user_command_int_map["5"] = threading;
 	user_command_int_map["6"] = gc;
 	user_command_int_map["7"] = social;
-
 	user_command_int_map["8"] = overloading;
 }
 
@@ -385,4 +397,4 @@ void bit_vector_example(){
 
 }
 
-#endif //#if __cplusplus >= 201103L
+//#endif //#if __cplusplus >= 201103L

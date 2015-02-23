@@ -48,7 +48,7 @@
 //	std::cout << "\tobj4: ";
 //	obj4.display();
 //}
-#endif TEST_MAIN
+#endif //TEST_MAIN
 
 #ifdef STL_MAIN
 //int main(){
@@ -112,7 +112,7 @@
 
 //delete_first_node(rand_initialize_list()); //delete first element
 //std::cout << (node_at_pos_n(rand_initialize_list(), 3))->data << std::endl;
-#endif MAIN_OTHER
+#endif //MAIN_OTHER
 
 #ifdef PUZZLE_1
 
@@ -139,7 +139,7 @@ int main()
 	return 0;
 }
 
-#endif PUZZLE_1
+#endif //PUZZLE_1
 
 
 int main(void){

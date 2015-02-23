@@ -17,4 +17,4 @@ struct node* insert_at_pos(struct node* head, int value, int position);
 void delete_nodes_after_n(struct node **head, int m, int n);
 
 
-#endif LINKED_LIST_H 
+#endif //INKED_LIST_H 

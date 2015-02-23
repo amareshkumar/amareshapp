@@ -357,4 +357,4 @@ void main(int argc, char **argv){
 }
 
 
-#endif MAIN_LINKED_LIST//
+#endif //MAIN_LINKED_LIST

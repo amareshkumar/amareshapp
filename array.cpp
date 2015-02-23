@@ -112,4 +112,4 @@ int main(){
 
 	create_sparx_matrix(4, 4);
 }
-#endif ARRAY_MAIN
+#endif //ARRAY_MAIN

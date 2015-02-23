@@ -1,8 +1,9 @@
-#pragma once 
+
 #ifndef  MY_UTILITIES_H
 #define MY_UTILITIES_H
+#pragma once
+//#include "my_project_app.h"
 
-#include "my_project_app.h"
 
 //#include <sys/types.h>
 //#include <sys/socket.h>

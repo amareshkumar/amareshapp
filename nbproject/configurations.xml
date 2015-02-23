@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>D:/code/amareshapp/amareshapp/Cats.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/Cats.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/Instrument.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/Instrument.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/MyApplication.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/MyApplication.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/My_Threads.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/My_Threads.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/OOPs.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/Queue.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/Smart_Pointers.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/Stack.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/ThrustActivitest.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/ThrustActivities.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/array.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/d_linked_list.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/gc.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/graph.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/helper_classes.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/linked_list.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/linked_list.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/main.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/my_bolt.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/my_bolt.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/my_list.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/my_project_app.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/my_utilities.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/my_utilities.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/polymorphic_activiites.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/polymorphic_activiites.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/programming.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/programming.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/reversal.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/reversal.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/sorting.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/sorting.h</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/test_my_project.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/tree.cpp</itemPath>
+      <itemPath>D:/code/amareshapp/amareshapp/tree.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>amareshapp-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>amareshapp-Makefile.mk</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="D:/code/amareshapp/amareshapp/Cats.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Cats.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Instrument.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Instrument.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/MyApplication.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/MyApplication.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/My_Threads.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/My_Threads.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/OOPs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Queue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Smart_Pointers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Stack.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/ThrustActivitest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/ThrustActivities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/array.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/d_linked_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/gc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/graph.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/helper_classes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/linked_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/linked_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_bolt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_bolt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_project_app.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_utilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/polymorphic_activiites.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/polymorphic_activiites.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/programming.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/programming.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/reversal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/reversal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/sorting.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/sorting.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/test_my_project.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/tree.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/tree.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>MinGW_TDM|MinGW_TDM</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="D:/code/amareshapp/amareshapp/Cats.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Cats.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Instrument.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Instrument.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/MyApplication.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/MyApplication.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/My_Threads.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/My_Threads.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/OOPs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Queue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Smart_Pointers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/Stack.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/ThrustActivitest.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/ThrustActivities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/array.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/d_linked_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/gc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/graph.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/helper_classes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/linked_list.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/linked_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_bolt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_bolt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_list.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_project_app.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_utilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/my_utilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/polymorphic_activiites.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/polymorphic_activiites.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/programming.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/programming.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/reversal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/reversal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/sorting.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/sorting.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/test_my_project.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/tree.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="D:/code/amareshapp/amareshapp/tree.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

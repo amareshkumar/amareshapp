@@ -55,18 +55,18 @@ public:
 	}
 };
 
-class Test2
-{
-private:
-	~Test2() { cout << "Destroying Object\n"; }
-public:
-	Test2() { cout << "Object Created\n"; }
-	friend void destructTest(Test2*);
-
-	void operator delete (void* ptr) {
-		delete ptr;
-	}
-};
+//class Test2
+//{
+//private:
+//	~Test2() { cout << "Destroying Object\n"; }
+//public:
+//	Test2() { cout << "Object Created\n"; }
+//	friend void destructTest(Test2*);
+//
+//	void operator delete (void* ptr) {
+//		delete [] ptr;
+//	}
+//};
 
 
 class Test {
@@ -224,7 +224,7 @@ std::cout << std::endl;
 //std::cout << "\nValue of f3= " << *f3;
 //std::cout << std::endl;
 
-#endif POINTERS
+#endif //POINTERS
 
 
 
@@ -342,6 +342,6 @@ int main()
 
 }
 
-#endif NICE
+#endif //NICE
 
 #endif //#if __cplusplus >= 201103L

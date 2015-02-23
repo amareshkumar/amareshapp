@@ -11,7 +11,7 @@ void reversal();
 
 class programming_questions {
 public:
-	string static Reverse(string str);
+	std::string static Reverse(string str);
 	std::string& reverse(std::string &st, int init, int final);
 	std::string& reverse_word_wise(std::string &str);
 };

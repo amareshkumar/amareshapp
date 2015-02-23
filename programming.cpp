@@ -1,7 +1,5 @@
 #include "my_project_app.h"
 
-#if __cplusplus >= 201103L
-
 using namespace std; 
 
 static const int command_max_size = 100;
@@ -239,4 +237,4 @@ std::string translateColumnIndexToName(int index){
 
 }
 
-#endif //#if __cplusplus >= 201103L
+//#endif //#if __cplusplus >= 201103L
