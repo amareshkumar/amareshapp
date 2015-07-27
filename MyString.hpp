@@ -18,9 +18,11 @@ public:
     int GetLength (MyString& str) const;
     char* GetMyString ();
     void SetMyString ();
+    int Get_No_of_MyString_Obj() const; 
     
 private:
     char* m_str; 
+    static int no_of_MyString_Obj; 
 };
 
 #endif	/* MYSTRING_HPP */

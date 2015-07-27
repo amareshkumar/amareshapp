@@ -8,28 +8,44 @@
 #include "MyString.hpp"
 #include "my_project_app.h"
 
-MyString::MyString():m_str(NULL){
+int MyString::no_of_MyString_Obj = 0;
 
-    std::cout<<"MyString Object Created\n";
+MyString::MyString():m_str(NULL){
+    std::cout<<"MyString C-tor\n";
+    no_of_MyString_Obj++;
 }
 
 MyString::MyString(char* st):m_str(NULL){
     m_str = st; 
-    std::cout<<"MyString Object Created\n";
+    std::cout<<"MyString 1-C-tor\n";
+    no_of_MyString_Obj++;
 }
 
 MyString::~MyString(){
-
-    std::cout<<"MyString Object Destroyed\n";
+    //delete the memory allocated in copy c-tor
+    //delete m_str; 
+    std::cout<<"MyString D-tor\n";
+    no_of_MyString_Obj--;
 }
 
 MyString::MyString(const MyString& str){
-    m_str = new char [10]; 
+    m_str = new char [sizeof (str)];
     m_str = str.m_str; 
     cout<<"MyString copy c-tor called\n";
+    no_of_MyString_Obj++;
+}
+
+MyString& MyString::operator = (const MyString & str){
+    delete [] m_str; 
+    
+    m_str = str.m_str; 
+    return *this; 
 }
 
 char* MyString::GetMyString(){
     return m_str; 
 }
 
+int MyString::Get_No_of_MyString_Obj() const{
+    return no_of_MyString_Obj;
+}

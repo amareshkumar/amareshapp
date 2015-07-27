@@ -1,5 +1,6 @@
 #include "my_project_app.h"
 #include "MyString.hpp"
+#include <memory>
 
 //List of main functions
 
@@ -145,16 +146,28 @@ int main()
 int main(void){
 	//MyApplication::instance();
 	//MyApplication::start();
-//	my_utility();
-	MyString mystring (const_cast<char*>("Hi, Amaresh Kumar! Have good time!")); 
+        //my_utility();
+	
+        MyString mystring (const_cast<char*>("Hi, Amaresh Kumar! Have good time!")); 
         
-        MyString newString = mystring; 
-        
-        cout<<"Original:"<<mystring.GetMyString()<<endl;
-        cout<<"Copied:"<<newString.GetMyString()<<endl;
+        MyString newString = mystring;       
+        cout<<"Original: "<<mystring.GetMyString()<<endl;
+        cout<<"Copied (With =) : "<<newString.GetMyString()<<endl;
         cout<<endl; 
+        
         MyString newString2 (mystring);
-        cout<<"Copied (With Bracket):"<<newString2.GetMyString()<<endl;
+        cout<<"Copied (With Bracket): "<<newString2.GetMyString()<<endl;
+        
+        MyString newString3; 
+        newString3 = mystring; 
+        cout<<"Copied (With Assign Op): "<<newString2.GetMyString()<<endl;
+        
+        cout <<"No of String object now: "<<mystring.Get_No_of_MyString_Obj()<<endl;
+        
+        cout<<"\n\nSmart pointers\n";
+        std::shared_ptr <MyString> p_myString = std::make_shared<MyString>(); 
+      // cout<<"With no value specified: "<<p_myString->GetMyString();
+        cout <<"No of String object now: "<<p_myString->Get_No_of_MyString_Obj()<<endl;
         
         return 0;
 }
