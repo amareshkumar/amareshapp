@@ -1,4 +1,5 @@
 #include "my_project_app.h"
+#include "MyString.hpp"
 
 //List of main functions
 
@@ -141,11 +142,16 @@ int main()
 
 #endif //PUZZLE_1
 
-
 int main(void){
 	//MyApplication::instance();
 	//MyApplication::start();
-	my_utility();
-	
-	return 0;
+//	my_utility();
+	MyString mystring (const_cast<char*>("Hi, Amaresh Kumar! Have good time!")); 
+        
+        MyString newString = mystring; 
+        
+        cout<<"Original:"<<mystring.GetMyString()<<endl;
+        cout<<"Copied:"<<newString.GetMyString()<<endl;
+        
+        return 0;
 }
