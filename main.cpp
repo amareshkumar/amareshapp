@@ -152,6 +152,9 @@ int main(void){
         
         cout<<"Original:"<<mystring.GetMyString()<<endl;
         cout<<"Copied:"<<newString.GetMyString()<<endl;
+        cout<<endl; 
+        MyString newString2 (mystring);
+        cout<<"Copied (With Bracket):"<<newString2.GetMyString()<<endl;
         
         return 0;
 }
