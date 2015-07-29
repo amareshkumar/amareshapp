@@ -7,6 +7,8 @@
 
 #include "MyString.hpp"
 #include "my_project_app.h"
+#include <string>
+#include <cstring>
 
 int MyString::no_of_MyString_Obj = 0;
 
@@ -48,4 +50,20 @@ char* MyString::GetMyString(){
 
 int MyString::Get_No_of_MyString_Obj() const{
     return no_of_MyString_Obj;
+}
+
+void MyString::SetMyString(const char* st) {
+    m_str = const_cast<char*>(st); 
+}
+
+void MyString::StringReverse (char *&reversed){
+    char temp; 
+    int st_len = strlen(reversed);  // replace with your own function
+    
+    for (int i = 0; i < (st_len/2); i++){
+        //swap the chars 
+        temp = reversed[i];
+        reversed [i] = reversed[st_len - i - 1];
+        reversed[st_len - i - 1] = temp;
+    }
 }

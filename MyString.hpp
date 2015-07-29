@@ -17,9 +17,9 @@ public:
     MyString& operator = (const MyString & str);
     int GetLength (MyString& str) const;
     char* GetMyString ();
-    void SetMyString ();
+    void SetMyString (const char* st);
     int Get_No_of_MyString_Obj() const; 
-    
+    void StringReverse (char *&reversed); 
 private:
     char* m_str; 
     static int no_of_MyString_Obj; 

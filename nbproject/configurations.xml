@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>MyLogger.hpp</itemPath>
       <itemPath>MyString.hpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -13,6 +14,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>MyLogger.cpp</itemPath>
       <itemPath>MyString.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -38,9 +40,14 @@
       </toolsSet>
       <compileType>
         <ccTool>
+          <architecture>2</architecture>
           <standard>8</standard>
         </ccTool>
       </compileType>
+      <item path="MyLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MyLogger.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="MyString.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="MyString.hpp" ex="false" tool="3" flavor2="0">
@@ -68,6 +75,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="MyLogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MyLogger.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="MyString.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="MyString.hpp" ex="false" tool="3" flavor2="0">
