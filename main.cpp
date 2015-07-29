@@ -180,6 +180,9 @@ int main(void){
         cout <<"No of String object now: "<<p_myString->Get_No_of_MyString_Obj()<<endl; */
         
         //log_msg("Hi AmareshApp");
-                
+    
+        MyLogger* mylog = MyLogger::get_instance();
+        mylog->log_msg("Hi AmareshApp");
+        
         return 0;
 }
