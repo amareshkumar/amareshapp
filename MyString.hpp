@@ -12,14 +12,16 @@ class MyString {
 public:
     MyString();
     ~MyString();
-    MyString (char* st);
+    MyString (const char* st);
     MyString (const MyString & str);
-    MyString& operator = (const MyString & str);
+    MyString& operator= (const MyString & str);
+    char* operator+ (char* str);
     int GetLength (MyString& str) const;
     char* GetMyString ();
     void SetMyString (const char* st);
     int Get_No_of_MyString_Obj() const; 
     void StringReverse (char *&reversed); 
+        
 private:
     char* m_str; 
     static int no_of_MyString_Obj; 

@@ -182,7 +182,21 @@ int main(void){
         cout<<"My String Value:"<<p_myString->GetMyString()<<endl; 
         cout <<"No of String object now: "<<p_myString->Get_No_of_MyString_Obj()<<endl; */
         
-        mylog->log_msg("Done with String Class writing\n");
+        //mylog->log_msg("Done with String Class writing\n");
+        
+        /*Enable this after implementing append function
+        char* tempString2 = (char*)"I'm Amaresh";
+        char* tempString = (char*) "Hi There\n";
+        
+        MyString string (tempString); 
+        
+        string + tempString2; 
+        cout << string.GetMyString();
+         */
+       
+        //char* str = (char*)"Hi, how are you";
+        //newString.StringReverse(str);
+        //cout << newString.GetMyString();
         
         return 0;
 }
