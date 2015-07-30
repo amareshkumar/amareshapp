@@ -149,11 +149,14 @@ void string_man (char* str){
     
 }
 
+extern MyLogger* mylog; 
+
 int main(void){
 	//MyApplication::instance();
 	//MyApplication::start();
         //my_utility();
-	/*
+	
+       /* 
         MyString mystring (const_cast<char*>("Hi, Amaresh Kumar! Have good time!")); 
         
         MyString newString = mystring;       
@@ -179,10 +182,7 @@ int main(void){
         cout<<"My String Value:"<<p_myString->GetMyString()<<endl; 
         cout <<"No of String object now: "<<p_myString->Get_No_of_MyString_Obj()<<endl; */
         
-        //log_msg("Hi AmareshApp");
-    
-        MyLogger* mylog = MyLogger::get_instance();
-        mylog->log_msg("Hi AmareshApp");
+        mylog->log_msg("Done with String Class writing\n");
         
         return 0;
 }
