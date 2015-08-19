@@ -1,0 +1,10 @@
+Hi There, 
+This is first line
+This is second line; 
+
+Following is the data to be written in mysql;
+
+'Amaresh Kumar' 29 'Male' 'amaresh.kumar@live.in'
+'Akhilesh Kumar' 25 'Male' 'bhu.akki@gmail.com'
+
+Thank you

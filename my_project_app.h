@@ -25,7 +25,6 @@ using namespace std::tr1;
 #include "Instrument.h"
 #include "tree.h"
 #include "linked_list.h"
-#include "My_Threads.h"
 #include "ThrustActivitest.h"
 #include "reversal.h"
 #include "Cats.h"

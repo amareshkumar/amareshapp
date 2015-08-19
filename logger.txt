@@ -32,3 +32,104 @@ MyString D-tor
 
 MyString 1-C-tor
 
+Connecting to MySql database
+
+Connecting to MySql database
+
+Connecting to MySql database
+
+Connecting to MySql database
+
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+File path is:
+D:/code/amareshapp/ParseFile.txt
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+File path is:
+D:/code/amareshapp/ParseFile.txt
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+File path is:
+D:/code/amareshapp/ParseFile.txt
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+File path is:
+D:/code/amareshapp/ParseFile.txt
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+File path is:
+D:/code/amareshapp/ParseFile.txt
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+File path is:
+D:/code/amareshapp/ParseFile.txt
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+File path is:
+D:/code/amareshapp/ParseFile.txt
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+File path is:
+D:/code/amareshapp/ParseFile.txt
+Connecting to MySql database
+
+REading a text file and parsing it.
+
+File opened
+File path is:
+D:/code/amareshapp/ParseFile.txt

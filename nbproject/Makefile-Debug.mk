@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/MyLogger.o \
 	${OBJECTDIR}/MyString.o \
+	${OBJECTDIR}/ParseFile.o \
 	${OBJECTDIR}/main.o
 
 
@@ -54,7 +55,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=
+LDLIBSOPTIONS=-Lmysql-connector-c++-noinstall-1.1.6-winx64/lib
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
@@ -67,17 +68,22 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/amareshapp.exe: ${OBJECTFILES}
 ${OBJECTDIR}/MyLogger.o: MyLogger.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/MyLogger.o MyLogger.cpp
+	$(COMPILE.cc) -g -Imysql-connector-c++-noinstall-1.1.6-winx64/include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/MyLogger.o MyLogger.cpp
 
 ${OBJECTDIR}/MyString.o: MyString.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/MyString.o MyString.cpp
+	$(COMPILE.cc) -g -Imysql-connector-c++-noinstall-1.1.6-winx64/include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/MyString.o MyString.cpp
+
+${OBJECTDIR}/ParseFile.o: ParseFile.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -Imysql-connector-c++-noinstall-1.1.6-winx64/include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ParseFile.o ParseFile.cpp
 
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+	$(COMPILE.cc) -g -Imysql-connector-c++-noinstall-1.1.6-winx64/include -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
 
 # Subprojects
 .build-subprojects:

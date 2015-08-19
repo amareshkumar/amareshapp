@@ -1,6 +1,7 @@
 #include "my_project_app.h"
 #include "MyString.hpp"
 #include "MyLogger.hpp"
+//#include "MyDbConnect.hpp"
 #include <memory>
 
 //List of main functions
@@ -144,10 +145,19 @@ int main()
 
 #endif //PUZZLE_1
 
+//class test0 {
+//public:
+//    virtual void average () = 0;
+//    virtual void print () = 0;
+//};
+//class test1 : public test0{
+//public:
+//    void average(){
+//        return;
+//    }
+//};
 
-void string_man (char* str){
-    
-}
+#include "ParseFile.hpp"
 
 extern MyLogger* mylog; 
 
@@ -197,6 +207,19 @@ int main(void){
         //char* str = (char*)"Hi, how are you";
         //newString.StringReverse(str);
         //cout << newString.GetMyString();
+        
+        mylog->log_msg ("Connecting to MySql database\n");
+        
+//        MyDbConnect mydbc;
+//        mydbc.ExecuteQuery("select * from cboteam");
+        
+//        test1 t1; 
+//        t1.average();
+        //read_it();
+        
+        mylog->log_msg ("REading a text file and parsing it.\n");
+        const char* path = "D:/code/amareshapp/ParseFile.txt";
+        parseTextFile (path);
         
         return 0;
 }

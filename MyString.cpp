@@ -81,9 +81,9 @@ char* MyString::operator+ (char* str){
     return m_str; 
 }
 
-char* MyString::myAppend (char* strToAppend) {
-
-    char* temp = new char (sizeof(m_str) + sizeof(strToAppend)); 
-    //To do 
-    //temp 
-}
+//char* MyString::myAppend (char* strToAppend) {
+//
+//    char* temp = new char (sizeof(m_str) + sizeof(strToAppend)); 
+//    //To do 
+//    //temp 
+//}
